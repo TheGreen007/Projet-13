@@ -1,0 +1,96 @@
+/*
+style.css
+Auteur : Alban Gjyliqi
+Date   : 30 Mars 2015
+Unique fichier CSS du site
+*/
+
+/*
+Attributs par défaut
+*/
+*
+{
+	font-family: arial;
+	font-size: 1em;
+	text-decoration: none;
+	color: black;
+}
+
+.td
+{
+	border: 1px solid black;
+}
+
+/*
+Attributs de la bannière
+*/
+#banniere
+{
+	width: 100%;
+	height: 200px;
+}
+
+/*
+Attributs du logo
+*/
+#logo
+{
+	width: 250px;
+	border: none;
+}
+
+/*
+Ensemble du menu de navigation
+*/
+#navigation
+{
+	width: 250px;
+	height: 300px;
+}
+
+/*
+Attributs des boutons de navigation
+*/
+.bouton
+{
+	width: 250px;
+	height: 60px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.4em;
+	border: 2px solid black;
+	background: transparent url("http://www.gjyliqi-alban.emfprod.ch/ressources/Gris-clair.png") repeat;
+}
+
+.bouton:hover
+{
+	width: 250px;
+	height: 60px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.5em;
+	border: 2px solid black;
+	background: transparent url("http://www.gjyliqi-alban.emfprod.ch/ressources/Gris-fonce.png") repeat;
+}
+
+
+
+/*
+Attributs du contenu
+*/
+#article
+{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+/*
+Attribut du pied de page
+*/
+#piedDePage
+{
+	width: 100%;
+	text-align: center;
+	border-top: 1px solid black;
+}
